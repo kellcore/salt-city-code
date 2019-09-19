@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+#showcase {
+    background-image: url(../img/alex-wong-l5Tzv1alcps-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    color: #3E3D3C;
+    text-align: center;
+}
+
+#showcase h1 {
+    font-size: 45px;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+#showcase h4 {
+    color: #6F777D;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #D44500;
+    font-size: 20px;
+}
